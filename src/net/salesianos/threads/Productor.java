@@ -21,7 +21,7 @@ public class Productor extends Thread {
     }
 
     private int tiempoDeCrecimientoAleatorio(){
-        int valor = (int)Math.floor(Math.random()*(5000)+1000);
+        int valor = (int)Math.floor(Math.random()*(2000)+1000);
         return valor;
     }
 

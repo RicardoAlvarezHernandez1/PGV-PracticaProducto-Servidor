@@ -1,0 +1,7 @@
+En la nueva salida no veo ningún cambio aparente , ya que 
+al fin y al cabo , el tiempo de producción de las verduras 
+es aleatorio entre 1 segundo y 2 segundos , y el tiempo de
+consumición por parte de los clientes por mucho que sea mayor
+al tiempo de produccción , sigue siendo aleatorio con lo cuál
+depende del número aleatorio de segundos que salgan , el consumidor
+comerá más rápido o más lento. 

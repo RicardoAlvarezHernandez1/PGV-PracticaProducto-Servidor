@@ -8,9 +8,9 @@ public class Main {
 
         Productor Paquito = new Productor("Paquitoo", 10, almacen);
         Productor Ramoncin = new Productor("Ramoncín", 10, almacen);
-        Consumidor Faustinito = new Consumidor("Faustino", 5 , 3000,almacen);
+        Consumidor Faustinito = new Consumidor("Faustino", 5 , 5000,almacen);
         Consumidor MrGentlemansito = new Consumidor("Mr. Gentlemansito", 10, 6000,almacen);
-        Consumidor Loquendito = new Consumidor("Loquendito", 5 ,2000 ,almacen);
+        Consumidor Loquendito = new Consumidor("Loquendito", 5 ,5000 ,almacen);
     
         Paquito.start();
         Ramoncin.start();
