@@ -1,0 +1,10 @@
+EXPLICACIÓN :
+
+Al ejecutar el código en primer lugar el hilo del Consumidor 
+se quedará en espera ya que no hay verduras disponibles en el almacen . 
+Tras Paquito producir una verdura y llevarla al almacén , este despierta
+al hilo de Consumidor el cual consumirá esa verdura que se ha producido , y 
+volverá al estado de espera hasta que se vuelva a producir una nueva verdura. 
+Una vez producidas y consumidas tosas las verduras , el programa finaliza. 
+
+
