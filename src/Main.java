@@ -12,6 +12,14 @@ public class Main {
         Consumidor MrGentlemansito = new Consumidor("Mr. Gentlemansito", 10, 6000,almacen);
         Consumidor Loquendito = new Consumidor("Loquendito", 5 ,2000 ,almacen);
     
+
+        Paquito.setPriority(Thread.MAX_PRIORITY);
+        Ramoncin.setPriority(Thread.MAX_PRIORITY);
+
+        Faustinito.setPriority(Thread.MIN_PRIORITY);
+        MrGentlemansito.setPriority(Thread.MIN_PRIORITY);
+        Loquendito.setPriority(Thread.MIN_PRIORITY);
+
         Paquito.start();
         Ramoncin.start();
 

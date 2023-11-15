@@ -1,0 +1,4 @@
+Probablemente la salida es similar a los otros experimentos 
+porque el planificador de hilos de mi sistema operativo no 
+no le esté dando una alta prioridad a mi asignación de prioridades
+de los hilos
